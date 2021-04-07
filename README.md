@@ -20,7 +20,7 @@ The filter values must be appended as POST body.
 npm run query -- --questionId=5 --collectionId=3 --databaseId=16
 ```
 
-2. Get a card from an embedded dashboard
+3. Get a card from an embedded dashboard
 
 This API doesn't need username/password authentication (replaced with token (JWT)).
 
