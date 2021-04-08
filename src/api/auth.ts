@@ -38,7 +38,7 @@ export const login = async (
   }
 };
 
-export const logout = async (): Promise<LoginResponse> => {
+export const logout = async (): Promise<any> => {
   try {
     const response = await metabaseHttpClient.delete<any, any>(API_URL.SESSION);
     return response;
