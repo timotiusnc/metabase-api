@@ -17,7 +17,7 @@ METABASE_PASSWORD=<password>
 The filter values must be appended as POST body.
 
 ```
-npm run query-card -- --questionId=5 --collectionId=3 --databaseId=16
+npm run query-card -- --cardId=<cardId>
 ```
 
 3. Get a card from an embedded dashboard
@@ -27,5 +27,5 @@ This API doesn't need username/password authentication (replaced with token (JWT
 The filter values must be appended as query param.
 
 ```
-npm run query-card-embed-dashboard -- --token=<token> --dashcardId=42 --cardId=37
+npm run query-card-embed-dashboard -- --token=<token> --dashcardId=<dashcardId> --cardId=<cardId>
 ```
