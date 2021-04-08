@@ -17,7 +17,7 @@ METABASE_PASSWORD=<password>
 The filter values must be appended as POST body.
 
 ```
-npm run query -- --questionId=5 --collectionId=3 --databaseId=16
+npm run query-card -- --questionId=5 --collectionId=3 --databaseId=16
 ```
 
 3. Get a card from an embedded dashboard
